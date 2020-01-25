@@ -21,7 +21,7 @@ sudo systemctl enable cooler_controller.service
 
 #delete files
 cd ..
-rm -R cooler_controller_for_orangePI
+rm -R cooler-controller-orangePI/
 
 echo [DONE]
 echo "Use [sudo systemctl status cooler_controller.service] to check service status"
