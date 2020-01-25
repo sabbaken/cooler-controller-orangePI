@@ -16,6 +16,11 @@ cp cooler_controller.sh $HOME/my_scripts/cooler_controller/
 sudo chmod +x $HOME/my_scripts/cooler_controller/cooler_controller.sh
 
 #add service
+echo "ExecStart="$HOME"/my_scripts/cooler_controller/cooler_controller.sh" >> cooler_controller.service
+echo "
+[Install]
+WantedBy=multi-user.target" >> cooler_controller.service
+
 sudo cp cooler_controller.service /etc/systemd/system/
 sudo systemctl enable cooler_controller.service
 
