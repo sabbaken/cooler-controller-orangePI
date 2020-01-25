@@ -1,0 +1,10 @@
+[Unit]
+Description=Fan controll scrypt.
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=$HOME/my_scripts/cooler_controller/cooler_controller.sh
+
+[Install]
+WantedBy=multi-user.target
