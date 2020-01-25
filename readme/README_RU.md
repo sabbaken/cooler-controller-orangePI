@@ -1,13 +1,13 @@
 
 ## Cooler controller for OrangePI
-This script measures temperature of cpu and turns on/off cooler if necessary.
-Should work with any OrangePI.
+Этот скрипт сделан для измерения температуры процессора и включения кулера при перегреве.
+Должно работать с любыми версиями Orange PI (проверьте GPIO)
 
-[WiringOP](https://github.com/zhaolei/WiringOP.git) was used to measure temperature of Orange pi.
+[WiringOP](https://github.com/zhaolei/WiringOP.git) используется для измерения температуры.
 
 
-### Installation process
-Enter password if needed
+### Установка
+Введите пароль, если тербуется
 
 ```bash
 git clone https://github.com/Sabbaken/cooler-controller-orangePI.git
@@ -15,17 +15,17 @@ cd cooler-controller-orangePI
 sudo sh install.sh
 ```
 
-### Components
-* [Cooler](http://ali.pub/4f1j47)
-* Transistor npn
-* Some wires
-* [Prototype PCB](http://ali.pub/4f1npv)
+### Компонены
+* [Кулер](http://ali.pub/4f1j47)
+* Транзистрор npn
+* Провода
+* [Плата для прототипирования](http://ali.pub/4f1npv)
 
-### Wiring
+### Подключение
 |               |                           |
 | ------------- |:-------------------------:|
-| Fan 5V        | OrangePI 5V               |
-| Fan GND       | Transistor Collector (C)  |
+| 5V кулера         | OrangePI 5V               |
+| GND кулера        | Transistor Collector (C)  |
 | GPIO 7        | Transistor Base (B)       | 
 | GND           | Transistor Emitter (E)    |
 
@@ -41,3 +41,4 @@ sudo sh install.sh
 
 - [![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Русский**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/readme/README_RU.md)
 - [![us](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/United-States.png) **English**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/README.md)
+
