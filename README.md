@@ -1,3 +1,7 @@
+### Read this in other languages 🌎
+
+- [![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Русский**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/readme/README_RU.md)
+- [![us](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/United-States.png) **English**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/README.md)
 
 ## Cooler controller for OrangePI
 This script measures temperature of cpu and turns on/off cooler if necessary.
@@ -37,7 +41,3 @@ sudo sh install.sh
 
 ![pinout_table](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/img/gpio.jpg?raw=true)
 
-### Read this in other languages 🌎
-
-- [![ru](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Russia.png) **Русский**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/readme/README_RU.md)
-- [![us](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/United-States.png) **English**](https://github.com/Sabbaken/cooler-controller-orangePI/blob/master/README.md)
